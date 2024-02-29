@@ -1,38 +1,164 @@
-# site
-мой тестовый сайт
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>THE OV STUDIO</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <header>
-
-    </header>
-    <section class="about">
-      <h1>Личная страница Михаила Михайловича</h1>
-        Мой второй сайт: <a href="https://yandex.ru/">Сайт Яндекса</a>
-        <a href="#technopark">Переход на главу 2</a>
-    </section>
-    <section id="technopark">
-        <form action="/search">
-            // Внутри формы будут поля для ввода данных и кнопка с действием (отправкой данных)
-         </form>
-         <input type="text"> – поле для ввода текста
-         <label>Введите имя  // – описание
-             <input type="text">
-         </label>
-         type="password" id="pin" placeholder="1234"
-         email, number, search, tel, url, checkbox, radio, …
-         <textarea rows="5" cols="30">textarea с 5 строками и 30 столбцами</textarea>
+    <section class="header-section">
+        <header class="nature-img">
+            <nav class="nav-container">
+                <div class="nav-item left-nav-container">
+                    <a href="/cart" class="nav-text">
+                        <img src="./images/menu.svg" alt="Меню">
+                    <a href="/cart" class="nav-text">
+                        <img src="./images/THEOVSTUDIO.svg" alt="Логотип сайта">
+                    
+                </div>
     
+                
+    
+                <div class="nav-item right-nav-container">
+                    <a href="/cart" class="nav-text">
+                        <img src="./images/search.svg" alt="Поиск">
+                    </a>
+                    <a href="/like" class="nav-text">
+                        <img src="./images/heart.svg" alt="Избранные" >
+                    </a>
+                    <a href="/profile" class="nav-text">
+                        <img src="./images/account.svg" alt="Мой профиль">
+                    </a>
+                    <a href="/profile" class="nav-text">
+                        <img src="./images/bag.svg" alt="Корзина">
+                    </a>
+                </div>
+            </nav>
 
-
+            <section class="first-section">
+                <h1 class="first-section-main-text">Новая коллекция 2023</h1>
+                <p class="first-section-addition-text">Смотреть</p>
+            </section>
+        </header>
     </section>
-    <footer>
-        <address>РГПУ им. Герцена</address>
+    
+    <section class="white-section">
+        <br>
+        <h2 class="section-header header-about">
+            SHOP
+        </h2>
+        <h2 class="section-header-logo">
+            THE OV STUDIO
+        </h2>
+
+        <p class="about-description"> Каталог</p>
+        <br>
+    </section>
+    
+    <section class="blue-section">
+        <br>
+        <h2 class="section-header section-header--white header-catalog">
+            КАТАЛОГ
+        </h2>
+        
+        <div class="subsection-container">
+            <img src="./images/hand.png" alt="" class="subsection-img subsection-img-1">
+
+            <div class="subsection-text-container">
+                <h3 class="section-subheader">Для рук</h3>
+                <p class="section-text">Крем для рук является идеальным выбором для тех, кто заботится о здоровье и красоте своей кожи. Этот уникальный продукт разработан на основе натуральных ингредиентов, чтобы обеспечить максимальный уход за руками.</p>        
+            </div>
+        </div>
+
+        <div class="subsection-container">
+            <div class="subsection-text-container">
+                <h3 class="section-subheader">Для лица</h3>
+                <p class="section-text">Продукты изготовлены исключительно из натуральных ингредиентов, без использования вредных химических компонентов. Они содержат органические компоненты, полезные растительные экстракты и эфирные масла, которые бережно ухаживают за кожей лица.</p>
+            </div>
+
+            <img src="./images/women1.png" alt="" class="subsection-img subsection-img-2">
+        </div>
+
+
+        <div class="subsection-container">
+            <img src="./images/women2.png" alt="" class="subsection-img subsection-img-3">
+
+            <div class="subsection-text-container">
+                <h3 class="section-subheader">Для волос</h3>
+                <p class="section-text">Натуральная косметика для волос, которую мы предлагаем, подходит для любого типа волос и обеспечивает деликатный и эффективный уход. </p>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <section class="white-section">
+        <br>
+        <h2 class="section-header header-hits">
+            ХИТЫ ПРОДАЖ
+        </h2>
+
+        <div class="cards-container">
+            <div class="card">
+                <img src="./images/tovar1.png" alt="">
+            </div>
+    
+            <div class="card">
+                <img src="./images/tovar2.png" alt="">
+    
+            </div>
+    
+            <div class="card">
+                <img src="./images/tovar1.png" alt="">
+    
+            </div>
+    
+            <div class="card">
+                <img src="./images/tovar2.png" alt="">
+    
+            </div>
+        </div>
+
+        <div class="nature-2-img">
+            <p class="nature-2-top-text">
+                NATURE BEAUTY
+            </p>
+            
+            <p class="nature-2-bottom-text">
+                GRAVELIT
+            </p>
+        </div>
+        <br>
+    </section>
+
+    <div class="stars-img"></div>
+    <footer class="blue-section">
+        <div>
+            <h4 class="footer-header">Каталог</h4>
+            <p class="footer-text">Лицо</p>
+            <p class="footer-text">Тело</p>
+            <p class="footer-text">Волосы</p>
+            <p class="footer-text">Женщинам</p>
+            <p class="footer-text">Мужчинам</p>
+            <p class="footer-text">Детям</p>
+        </div>
+        <div>
+            <h4 class="footer-header">О нас</h4>
+            <p class="footer-text">Акции</p>
+            <p class="footer-text">Контакты</p>
+            <p class="footer-text">Способ оплаты</p>
+        </div>
+        <div>
+            <h4 class="footer-header">Дополнительно</h4>
+            <p class="footer-text">Способ оплаты</p>
+            <p class="footer-text">Сертификаты</p>
+        </div>
+        <div>
+            <h4 class="footer-header">Как с нами связаться</h4>
+            <p class="footer-text">+7 981 555 35 35</p>
+            <p class="footer-text">loremipsum@mail.ru</p>
+        </div>
     </footer>
 </body>
 </html>
