@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("./fonts/Montserrat/Montserrat-Light.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Philosopher-Regular";
+    src: url("./fonts/Philosopher/Philosopher-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 17px 40px;
+    font-family: 'Cormorant-Bold';
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: #264B52;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.left-nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.centered-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+.nature-img {
+    background-image: url("./images/menu.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+}
+.nature-img {
+    background-image: url("./images/first.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 98vw;
+    height: auto;
+}
+
+.first-section-main-text {
+    margin-top: 115px;
+    font-size: 1em;
+    font-family: "Philosopher-Regular";
+    color: #0F1829;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    width: 80vw;
+}
+
+.first-section-addition-text {
+    font-size: 1em;
+    font-family: "Montserrat-Light";
+    color: #0F1829;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    width: 65vw;
+    margin-bottom: 265px;
+}
+
+.white-section {
+    background-color: #D5D4D0;
+}
+
+.blue-section {
+    background-color: #C5C1B8;
+}
+
+.section-header {
+    color: #0F1829;
+    font-size: 2em;
+    font-family: "Montserrat-Light";
+    border-left: 0px;
+    border-right: 0px;
+    margin: 0px 40px;
+    padding: 5px;
+    text-align: center;
+}
+.section-header-logo {
+    color: #0F1829;
+    font-size: 4em;
+    font-family: "Philosopher-Regular";
+    border-left: 0px;
+    border-right: 0px;
+    margin: 0px 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.section-header--white {
+    color: #F1EEE9;
+    border: #F1EEE9 solid 1px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.header-about {
+    margin-top: 104px;
+}
+
+.about-description {
+    font-family: "Montserrat-Light";
+    font-size: 1.5em;
+    margin-top: 104px;
+    margin-bottom: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    align-items: left;
+}
+
+.header-catalog {
+    margin-top: 88px;
+}
+
+.header-hits {
+    margin-top: 88px;
+}
+
+.subsection-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.subsection-text-container {
+    margin: 40px;
+}
+
+.subsection-img {
+    width: 45vw;
+    margin: 40px;
+}
+
+.subsection-img-1 {
+    z-index: 1;
+}
+
+.subsection-img-2 {
+    z-index: 2;
+}
+
+.subsection-img-3 {
+    z-index: 3;
+}
+
+.subsection-text-container {
+
+}
+
+.section-subheader {
+    color: #F1EEE9;
+    font-family: "Cormorant-Medium";
+    font-size: 3.5em;
+}
+
+.section-text {
+    color: #F1EEE9;
+    font-family: "Montserrat-Medium";
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.section-text--white {
+    color: #E8E6E1;
+    font-size: 1.5em;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.card {
+    border: #264B52 solid 2px;
+    width: 325px;
+    height: 435px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.card-image-container {
+
+}
+
+.card-description-container {
+
+}
+
+.card-description-left-container {
+
+}
+
+.card-description-right-container {
+
+}
+
+.nature-2-img {
+    background-image: url("./images/nature-2.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.nature-2-top-text {
+    color: #FFFFFF;
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+.nature-2-bottom-text {
+    color: #FFFFFF;
+    font-size: 2em;
+    padding-bottom: 25px;
+    margin-top: 375px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 75px;
+}
+
+.footer-header {
+    color: #F1EEE9;
+    font-size: 1.5em;
+    font-family: "Cormorant-Bold";
+    margin-top: 75px;
+}
+
+.footer-text{
+    color: #F1EEE9;
+    font-size: 1em;
+    font-family: "Montserrat-Medium";
+    margin-top: 35px;
+}
+
+.stars-img {
+    background-color: #264B52;
+    background-image: url("./images/stars.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.15;
+    width: 100vw;
+    height: auto;
+}
