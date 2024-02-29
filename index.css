@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "Montserrat-Light";
     src: url("./fonts/Montserrat/Montserrat-Light.ttf");
@@ -62,7 +64,7 @@ html {
     justify-content: center;
     /*align-items: center;*/
 }
-.nature-img {
+.model-img {
     background-image: url("./images/menu.png");
     background-size: no-repeat;
     background-position: center;
@@ -70,7 +72,7 @@ html {
     width: 100vw;
     height: auto;
 }
-.nature-img {
+.model-img {
     background-image: url("./images/first.png");
     background-size: no-repeat;
     background-position: center;
@@ -105,8 +107,8 @@ html {
     background-color: #D5D4D0;
 }
 
-.blue-section {
-    background-color: #C5C1B8;
+.bezh-section {
+    background-color: #D5D4D0;
 }
 
 .section-header {
@@ -277,16 +279,16 @@ footer {
 }
 
 .footer-header {
-    color: #F1EEE9;
+    color: #0F1829;
     font-size: 1.5em;
-    font-family: "Cormorant-Bold";
+    font-family: "Montserrat-Light";
     margin-top: 75px;
 }
 
 .footer-text{
-    color: #F1EEE9;
+    color: #0F1829;
     font-size: 1em;
-    font-family: "Montserrat-Medium";
+    font-family: "Montserrat-Light";
     margin-top: 35px;
 }
 
